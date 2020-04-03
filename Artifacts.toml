@@ -1,113 +1,113 @@
 [[Tcl]]
+arch = "i686"
+git-tree-sha1 = "fd06a4891d7c1f31109bb96bd4918dd6897dd3f5"
+libc = "musl"
+os = "linux"
+
+    [[Tcl.download]]
+    sha256 = "9bb75a9915ad57260102f4e938a70c9533f786201d62ca7664d6d319636c7471"
+    url = "https://github.com/JuliaBinaryWrappers/Tcl_jll.jl/releases/download/Tcl-v8.6.9+1/Tcl.v8.6.9.i686-linux-musl.tar.gz"
+[[Tcl]]
+arch = "aarch64"
+git-tree-sha1 = "802affdc67160d7c2a5f5419150e863e012cc5db"
+libc = "musl"
+os = "linux"
+
+    [[Tcl.download]]
+    sha256 = "c8caf3d6d58afaac7f7adf865917fd90bc7644e88e7b1417971489197dd3b0fa"
+    url = "https://github.com/JuliaBinaryWrappers/Tcl_jll.jl/releases/download/Tcl-v8.6.9+1/Tcl.v8.6.9.aarch64-linux-musl.tar.gz"
+[[Tcl]]
+arch = "i686"
+git-tree-sha1 = "62865884a446537c4318d19f2abd7ffbfb7b300b"
+os = "windows"
+
+    [[Tcl.download]]
+    sha256 = "cbfd6dbe8d14e882709c146deae202d2e649e3cb91a6946721a3dd6ddf92b2da"
+    url = "https://github.com/JuliaBinaryWrappers/Tcl_jll.jl/releases/download/Tcl-v8.6.9+1/Tcl.v8.6.9.i686-w64-mingw32.tar.gz"
+[[Tcl]]
 arch = "x86_64"
-git-tree-sha1 = "a2f17a8e8a42402835ea82e57504b389cc7a76ad"
+git-tree-sha1 = "02836245e15838c7b29a407fe341df4442196c69"
+os = "windows"
+
+    [[Tcl.download]]
+    sha256 = "6cb31917ef278edaedc7f5b939e3dbc046a8d2681f6e766c78eda26ab63c4a80"
+    url = "https://github.com/JuliaBinaryWrappers/Tcl_jll.jl/releases/download/Tcl-v8.6.9+1/Tcl.v8.6.9.x86_64-w64-mingw32.tar.gz"
+[[Tcl]]
+arch = "armv7l"
+git-tree-sha1 = "5a1378c79b6efd7cbdf828721ebebb470bf2bbcf"
+libc = "glibc"
+os = "linux"
+
+    [[Tcl.download]]
+    sha256 = "a7a59faec026b0d5bfd7d6db278721cd606af2b943a073f8c76f91d4e46ba412"
+    url = "https://github.com/JuliaBinaryWrappers/Tcl_jll.jl/releases/download/Tcl-v8.6.9+1/Tcl.v8.6.9.armv7l-linux-gnueabihf.tar.gz"
+[[Tcl]]
+arch = "armv7l"
+git-tree-sha1 = "54c1e1be6945b440747abd457575c5d1270e6969"
+libc = "musl"
+os = "linux"
+
+    [[Tcl.download]]
+    sha256 = "d7fbe6fa20364f758fabc50001b15144e98fc9cbd75a7fe789b8eca789d08597"
+    url = "https://github.com/JuliaBinaryWrappers/Tcl_jll.jl/releases/download/Tcl-v8.6.9+1/Tcl.v8.6.9.armv7l-linux-musleabihf.tar.gz"
+[[Tcl]]
+arch = "i686"
+git-tree-sha1 = "1454beb0f5dfe5a024bf0e50e41a751a68357b2f"
+libc = "glibc"
+os = "linux"
+
+    [[Tcl.download]]
+    sha256 = "1cec3df008d1fa9c036bd66e2deb9730d5e6a4861095cbc68ed78561a5193fdc"
+    url = "https://github.com/JuliaBinaryWrappers/Tcl_jll.jl/releases/download/Tcl-v8.6.9+1/Tcl.v8.6.9.i686-linux-gnu.tar.gz"
+[[Tcl]]
+arch = "x86_64"
+git-tree-sha1 = "f011d993093ed0163479c7f4bb5267bf3c363765"
+libc = "glibc"
+os = "linux"
+
+    [[Tcl.download]]
+    sha256 = "c5117457f5242b60b734b131ee4ef350c1af2a12be3d636cfd726a2a78b65b9a"
+    url = "https://github.com/JuliaBinaryWrappers/Tcl_jll.jl/releases/download/Tcl-v8.6.9+1/Tcl.v8.6.9.x86_64-linux-gnu.tar.gz"
+[[Tcl]]
+arch = "powerpc64le"
+git-tree-sha1 = "43fd8d384f29e65ad2992e55e9453809df0dcb5d"
+libc = "glibc"
+os = "linux"
+
+    [[Tcl.download]]
+    sha256 = "2cb585d4776a781d2a3e470575a6272d81a0fdd4c80a3da2247bf7459c346c3d"
+    url = "https://github.com/JuliaBinaryWrappers/Tcl_jll.jl/releases/download/Tcl-v8.6.9+1/Tcl.v8.6.9.powerpc64le-linux-gnu.tar.gz"
+[[Tcl]]
+arch = "x86_64"
+git-tree-sha1 = "754380e628d2f76de72bc5e22fab15c3368f93e1"
 os = "macos"
 
     [[Tcl.download]]
-    sha256 = "3371dd6af4e903abd14c44953d4603f2bbad3b621c5a77bcfabd289ece7643ab"
-    url = "https://github.com/JuliaBinaryWrappers/Tcl_jll.jl/releases/download/Tcl-v8.6.9+0/Tcl.v8.6.9.x86_64-apple-darwin14.tar.gz"
+    sha256 = "cd7a01b2ab3e952a55e05b60c81b759e8a9b1430a681fef4f099180f8ab6f430"
+    url = "https://github.com/JuliaBinaryWrappers/Tcl_jll.jl/releases/download/Tcl-v8.6.9+1/Tcl.v8.6.9.x86_64-apple-darwin14.tar.gz"
 [[Tcl]]
-arch = "i686"
-git-tree-sha1 = "76b3219ef50d2dffa581a70e1a3c034508962156"
+arch = "aarch64"
+git-tree-sha1 = "89785c36370774d3d7646fb4217e228f55ba7a76"
 libc = "glibc"
 os = "linux"
 
     [[Tcl.download]]
-    sha256 = "82db4346639c2ca0e7b10c5325576776abc582e8f8ddc10736a2f15d20cb47c4"
-    url = "https://github.com/JuliaBinaryWrappers/Tcl_jll.jl/releases/download/Tcl-v8.6.9+0/Tcl.v8.6.9.i686-linux-gnu.tar.gz"
+    sha256 = "2cbed45feb4467b13ef587d4e9c6bb45fe77fd885b6e6e1bed908ba2a7f6dafc"
+    url = "https://github.com/JuliaBinaryWrappers/Tcl_jll.jl/releases/download/Tcl-v8.6.9+1/Tcl.v8.6.9.aarch64-linux-gnu.tar.gz"
 [[Tcl]]
 arch = "x86_64"
-git-tree-sha1 = "289ae4162e38fe51370b5965fc601f880f688ab5"
+git-tree-sha1 = "ce6d98923102f3265420a8d82d9914bec6c90a5f"
 os = "freebsd"
 
     [[Tcl.download]]
-    sha256 = "06a9cfd1090b322496b98fc80a13b78602c007fa8f93380063189e34ed8a2934"
-    url = "https://github.com/JuliaBinaryWrappers/Tcl_jll.jl/releases/download/Tcl-v8.6.9+0/Tcl.v8.6.9.x86_64-unknown-freebsd11.1.tar.gz"
-[[Tcl]]
-arch = "powerpc64le"
-git-tree-sha1 = "34388f6bcafd1dfd8cfe1cf3f4a02c9d44838c86"
-libc = "glibc"
-os = "linux"
-
-    [[Tcl.download]]
-    sha256 = "a23763186852fa70088150738f562ba9c771c3d07060f49ccb599ea4faa8d47b"
-    url = "https://github.com/JuliaBinaryWrappers/Tcl_jll.jl/releases/download/Tcl-v8.6.9+0/Tcl.v8.6.9.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "4d00293abdf8784f2f434827d552fdcf1f0904f4db97d98815198fc482050c24"
+    url = "https://github.com/JuliaBinaryWrappers/Tcl_jll.jl/releases/download/Tcl-v8.6.9+1/Tcl.v8.6.9.x86_64-unknown-freebsd11.1.tar.gz"
 [[Tcl]]
 arch = "x86_64"
-git-tree-sha1 = "854f71129a6f66453ebea0c5cb5beb7fcfd036ae"
+git-tree-sha1 = "179fde458862366cee1d82badc4eb673850b3429"
 libc = "musl"
 os = "linux"
 
     [[Tcl.download]]
-    sha256 = "e8701175917203e0410bf01d7e4dcae7a43f06dd35d9ddfc0dcd8e173d054d2c"
-    url = "https://github.com/JuliaBinaryWrappers/Tcl_jll.jl/releases/download/Tcl-v8.6.9+0/Tcl.v8.6.9.x86_64-linux-musl.tar.gz"
-[[Tcl]]
-arch = "x86_64"
-git-tree-sha1 = "1c3d3e9d7944996edba815fc0f579549b2c949b7"
-libc = "glibc"
-os = "linux"
-
-    [[Tcl.download]]
-    sha256 = "b8fead4002b572b6113fbf46588b1f41d95704b8d31a59336d36b6b8804f7684"
-    url = "https://github.com/JuliaBinaryWrappers/Tcl_jll.jl/releases/download/Tcl-v8.6.9+0/Tcl.v8.6.9.x86_64-linux-gnu.tar.gz"
-[[Tcl]]
-arch = "x86_64"
-git-tree-sha1 = "3f24ad1e2c87c218926f5a3c4b9cc8e447cb6661"
-os = "windows"
-
-    [[Tcl.download]]
-    sha256 = "7a09da30213c8abd712f4b2bc04d98021feaca58657fd9fedd218b965e92023a"
-    url = "https://github.com/JuliaBinaryWrappers/Tcl_jll.jl/releases/download/Tcl-v8.6.9+0/Tcl.v8.6.9.x86_64-w64-mingw32.tar.gz"
-[[Tcl]]
-arch = "aarch64"
-git-tree-sha1 = "38cd520337e2a8e45615b3c83966056f2bcac9fd"
-libc = "musl"
-os = "linux"
-
-    [[Tcl.download]]
-    sha256 = "d6812fcf9a36d5fde0d48f6b4e0888d7d33208927f80f95e39a1bc2bd5790624"
-    url = "https://github.com/JuliaBinaryWrappers/Tcl_jll.jl/releases/download/Tcl-v8.6.9+0/Tcl.v8.6.9.aarch64-linux-musl.tar.gz"
-[[Tcl]]
-arch = "armv7l"
-git-tree-sha1 = "41c0a4104c460e777ba6554837efc922b6a3486a"
-libc = "glibc"
-os = "linux"
-
-    [[Tcl.download]]
-    sha256 = "b6580cb8e07d72acce6af50035ff5e954fdd06190b204be93c967ff411a86a4c"
-    url = "https://github.com/JuliaBinaryWrappers/Tcl_jll.jl/releases/download/Tcl-v8.6.9+0/Tcl.v8.6.9.arm-linux-gnueabihf.tar.gz"
-[[Tcl]]
-arch = "i686"
-git-tree-sha1 = "50245d1fb71d52395d45620af5759886ffba9cea"
-libc = "musl"
-os = "linux"
-
-    [[Tcl.download]]
-    sha256 = "194247fdb49494058c487902d6e67e2013f4ad2f3ea67f99c2edeadc231cacba"
-    url = "https://github.com/JuliaBinaryWrappers/Tcl_jll.jl/releases/download/Tcl-v8.6.9+0/Tcl.v8.6.9.i686-linux-musl.tar.gz"
-[[Tcl]]
-arch = "armv7l"
-git-tree-sha1 = "dc9da471865233aa445fbcdabbe449e20994f382"
-libc = "musl"
-os = "linux"
-
-    [[Tcl.download]]
-    sha256 = "97ca89df908cd2b13a3ac7bd3d4c0f60d35d8c821b0c75fece76198140fe7052"
-    url = "https://github.com/JuliaBinaryWrappers/Tcl_jll.jl/releases/download/Tcl-v8.6.9+0/Tcl.v8.6.9.arm-linux-musleabihf.tar.gz"
-[[Tcl]]
-arch = "aarch64"
-git-tree-sha1 = "d738c252b0a975dac19609bb6b8f26279924df4a"
-libc = "glibc"
-os = "linux"
-
-    [[Tcl.download]]
-    sha256 = "04f64329a6cbcb1abfdb754a653ad4508607840bc8fe60541b87902ab883de5a"
-    url = "https://github.com/JuliaBinaryWrappers/Tcl_jll.jl/releases/download/Tcl-v8.6.9+0/Tcl.v8.6.9.aarch64-linux-gnu.tar.gz"
-[[Tcl]]
-arch = "i686"
-git-tree-sha1 = "d38bfe3e794c6603a382b5f46d250ebcdcf23a40"
-os = "windows"
-
-    [[Tcl.download]]
-    sha256 = "34a7ce7000fca270186485da668518815e72d1a46e8c37c900b7532b088fdf97"
-    url = "https://github.com/JuliaBinaryWrappers/Tcl_jll.jl/releases/download/Tcl-v8.6.9+0/Tcl.v8.6.9.i686-w64-mingw32.tar.gz"
+    sha256 = "c72cab32f150e66683ba348b5f3d8c7f8167bd159314dddb5e21d053f30c7fa6"
+    url = "https://github.com/JuliaBinaryWrappers/Tcl_jll.jl/releases/download/Tcl-v8.6.9+1/Tcl.v8.6.9.x86_64-linux-musl.tar.gz"

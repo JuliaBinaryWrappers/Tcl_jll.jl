@@ -1,6 +1,6 @@
 name = "Tcl_jll"
 uuid = "9fc9b8dd-f768-5d0d-bb0b-e65961e00eb6"
-version = "8.6.9+1"
+version = "8.6.9+2"
 
 [deps]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"

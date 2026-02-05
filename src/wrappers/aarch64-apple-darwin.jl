@@ -3,12 +3,12 @@ export libtcl
 
 using Zlib_jll
 JLLWrappers.@generate_wrapper_header("Tcl")
-JLLWrappers.@declare_library_product(libtcl, "@rpath/libtcl8.6.dylib")
+JLLWrappers.@declare_library_product(libtcl, "/workspace/destdir/lib/libtcl9.0.dylib")
 function __init__()
     JLLWrappers.@generate_init_header(Zlib_jll)
     JLLWrappers.@init_library_product(
         libtcl,
-        "lib/libtcl8.6.dylib",
+        "lib/libtcl9.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 

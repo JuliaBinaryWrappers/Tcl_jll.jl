@@ -3,12 +3,12 @@ export libtcl
 
 using Zlib_jll
 JLLWrappers.@generate_wrapper_header("Tcl")
-JLLWrappers.@declare_library_product(libtcl, "libtcl8.6.so")
+JLLWrappers.@declare_library_product(libtcl, "libtcl9.0.so")
 function __init__()
     JLLWrappers.@generate_init_header(Zlib_jll)
     JLLWrappers.@init_library_product(
         libtcl,
-        "lib/libtcl8.6.so",
+        "lib/libtcl9.0.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
